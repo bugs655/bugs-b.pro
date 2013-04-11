@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+.body_style {
+        background-color: #666;
+        background-image: url(../media/v-wall.jpg);
+        background-size: 100%;
+        position: relative;
+}
+html, body, #wrap {height: 100%;}
+body > #wrap {height: auto; min-height: 100%;}
+#header {padding-bottom: 50px;
+        position: fixed;}
+#main {padding-bottom: 150px;} 
+#footer {position: static;
+        margin-top: 50px;
+        height: 100px;
+        clear:both;} 
+.clearfix:after {content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+h1 {
+        font-family: 'Trade Winds', cursive;
+        color: white;
+        font-size: 50px;}
